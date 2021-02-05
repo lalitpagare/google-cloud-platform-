@@ -1,0 +1,26 @@
+ Projects in the Cloud Console
+
+Google Cloud projects were explained in the section about the contents of the Connection Details pane. Here's the definition once again:
+
+A Google Cloud project is an organizing entity for your Google Cloud resources. It often contains resources and services; for example, it may hold a pool of virtual machines, a set of databases, and a network that connects them together. Projects also contain settings and permissions, which specify security rules and who has access to what resources.
+
+The upper-left corner of the central pane contains a card labeled Project info that looks like this:
+
+76370a4185212435.png
+
+Your project has a name, ID, and number. These identifiers are frequently used when interacting with Google Cloud services. You are working with one project to get experience with a specific service or feature of Google Cloud.
+
+Task 2: View all projects
+
+You actually have access to more than one Google Cloud project. In fact, in some labs you may be given more than one project in order to complete the assigned tasks.
+
+In the Google Cloud Console title bar, next to your project name, click the drop-down menu.
+In the Select a project dialog, click All. The resulting list of projects includes a "Qwiklabs Resources" project.
+66c73e22ea578f78.png
+
+Do not switch over to the Qwiklabs Resources project at this point! However, you may use it later in other labs.
+It's not uncommon for large enterprises or experienced users of Google Cloud to have dozens to thousands of Google Cloud projects. Organizations use Google Cloud in different ways, so projects are a good method for organizing cloud computing services (by team or product, for example.)
+
+The "Qwiklabs Resources" project contains files, datasets, and machine images for certain labs and can be accessed from every Google Cloud lab environment. It's important to note that "Qwiklabs Resources" is shared (read only) with all Qwiklabs users, which means that you cannot delete or modify it.
+
+The Google Cloud project that you are working with is temporary, which means that the project and everything it contains will be deleted when the lab ends. Whenever you start a new lab, you will be given access to one or more new Google Cloud projects, and there (not "Qwiklabs Resources") is where you will run all of the lab steps.
